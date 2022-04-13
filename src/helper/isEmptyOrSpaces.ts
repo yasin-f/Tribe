@@ -1,0 +1,1 @@
+export const isEmptyOrSpaces = (str:string) =>  str === null || str.match(/^ *$/) !== null;
